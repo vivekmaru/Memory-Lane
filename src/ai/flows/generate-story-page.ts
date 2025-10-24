@@ -1,3 +1,4 @@
+
 'use server';
 
 /**
@@ -45,9 +46,9 @@ const prompt = ai.definePrompt({
 
 Theme: {{{theme}}}
 
-Photos:
 {{#each photoDataUris}}
-- Photo {{index}}: {{media url=this}}
+Photo {{index}}:
+{{media url=this}}
 {{/each}}
 
 Based on the theme and the photos, create a compelling narrative with a title, introduction, a unique caption for each photo that ties into the story, and a conclusion.`,

@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from 'react';
@@ -31,6 +32,18 @@ type Story = {
     conclusion:string;
 };
 
+// Helper function to fetch an image and convert it to a data URI
+async function toDataURI(url: string) {
+    const response = await fetch(url);
+    const blob = await response.blob();
+    return new Promise<string>((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onloadend = () => resolve(reader.result as string);
+        reader.onerror = reject;
+        reader.readAsDataURL(blob);
+    });
+}
+
 export function StoryCreator() {
     const [selectedPhotos, setSelectedPhotos] = useState<Photo[]>([]);
     const [theme, setTheme] = useState('');
@@ -60,9 +73,7 @@ export function StoryCreator() {
         setStory(null);
 
         try {
-            // In a real app, you would fetch the full data URI from the photo URLs.
-            // For this scaffold, we'll simulate this by passing dummy data URIs as the AI flow requires it.
-            const photoDataUris = selectedPhotos.map(p => 'data:image/jpeg;base64,');
+            const photoDataUris = await Promise.all(selectedPhotos.map(p => toDataURI(p.url)));
 
             const result = await generateStoryPage({
                 photoDataUris,
