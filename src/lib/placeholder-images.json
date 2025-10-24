@@ -1,3 +1,112 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "album-1-cover",
+      "description": "Family Vacation Album Cover",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1575896225742-3c6ba7caf401?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmYW1pbHklMjBiZWFjaHxlbnwwfHx8fDE3NjEyNzc2ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "family beach"
+    },
+    {
+      "id": "album-2-cover",
+      "description": "Summer Memories Album Cover",
+      "imageUrl": "https://images.unsplash.com/40/10294420724_0300cf921d_o.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdW1tZXIlMjBmcmllbmRzfGVufDB8fHx8MTc2MTI5OTQ2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "summer friends"
+    },
+    {
+      "id": "album-3-cover",
+      "description": "City Adventures Album Cover",
+      "imageUrl": "https://images.unsplash.com/photo-1506606401543-2e73709cebb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaXR5JTIwbmlnaHR8ZW58MHx8fHwxNzYxMjU5MDc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city night"
+    },
+    {
+      "id": "album-4-cover",
+      "description": "Wedding Day Album Cover",
+      "imageUrl": "https://images.unsplash.com/photo-1561287495-a3fe1fd28504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3ZWRkaW5nJTIwY291cGxlfGVufDB8fHx8MTc2MTIyNTM4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding couple"
+    },
+    {
+      "id": "album-5-cover",
+      "description": "Baby's First Year Album Cover",
+      "imageUrl": "https://images.unsplash.com/photo-1608039649006-df579ad70c64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bmV3Ym9ybiUyMGJhYnl8ZW58MHx8fHwxNzYxMjQ2NDAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "newborn baby"
+    },
+    {
+      "id": "album-6-cover",
+      "description": "Road Trip Album Cover",
+      "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyb2FkJTIwdHJpcHxlbnwwfHx8fDE3NjEyNzQ5MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "road trip"
+    },
+    {
+      "id": "p1",
+      "description": "Sunset at the beach",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiZWFjaCUyMHN1bnNldHxlbnwwfHx8fDE3NjExODQ2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beach sunset"
+    },
+    {
+      "id": "p2",
+      "description": "Building sandcastles",
+      "imageUrl": "https://images.unsplash.com/photo-1591026944467-a32590b87616?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzYW5kY2FzdGxlJTIwYmVhY2h8ZW58MHx8fHwxNzYxMjk5NDY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sandcastle beach"
+    },
+    {
+      "id": "p3",
+      "description": "Dinner with a view",
+      "imageUrl": "https://images.unsplash.com/photo-1637743237120-b4542fe518aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmVzdGF1cmFudCUyMHZpZXd8ZW58MHx8fHwxNzYxMjk5NDY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant view"
+    },
+    {
+      "id": "p4",
+      "description": "Bonfire on the beach",
+      "imageUrl": "https://images.unsplash.com/photo-1656174867617-e486cad201e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiZWFjaCUyMGJvbmZpcmV8ZW58MHx8fHwxNzYxMjQzMTA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beach bonfire"
+    },
+    {
+      "id": "p5",
+      "description": "Pool party",
+      "imageUrl": "https://images.unsplash.com/photo-1572477722570-8a909f42ca6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwb29sJTIwcGFydHl8ZW58MHx8fHwxNzYxMjg2MDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pool party"
+    },
+    {
+      "id": "p6",
+      "description": "Times Square lights",
+      "imageUrl": "https://images.unsplash.com/photo-1585238326164-612cb4248873?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0aW1lcyUyMHNxdWFyZXxlbnwwfHx8fDE3NjEyOTk0NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "times square"
+    },
+    {
+      "id": "p7",
+      "description": "Central Park stroll",
+      "imageUrl": "https://images.unsplash.com/photo-1602087564121-ecda2f6c7ee9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjZW50cmFsJTIwcGFya3xlbnwwfHx8fDE3NjEyOTk0NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "central park"
+    },
+    {
+      "id": "p8",
+      "description": "I do!",
+      "imageUrl": "https://images.unsplash.com/photo-1606800052052-a08af7148866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3ZWRkaW5nJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzYxMjU2OTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding ceremony"
+    },
+    {
+      "id": "p9",
+      "description": "First dance",
+      "imageUrl": "https://images.unsplash.com/photo-1525170700600-2355220a3365?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3ZWRkaW5nJTIwZGFuY2V8ZW58MHx8fHwxNzYxMTk0NTUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding dance"
+    },
+    {
+      "id": "p10",
+      "description": "Welcome home",
+      "imageUrl": "https://images.unsplash.com/photo-1561524891-797c070edbda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuZXdib3JuJTIwaG9tZXxlbnwwfHx8fDE3NjEyOTk0NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "newborn home"
+    },
+    {
+      "id": "p11",
+      "description": "Grand Canyon view",
+      "imageUrl": "https://images.unsplash.com/photo-1531694611353-d4758f86fa6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxncmFuZCUyMGNhbnlvbnxlbnwwfHx8fDE3NjEyOTM5MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grand canyon"
+    },
+    {
+      "id": "p12",
+      "description": "On the road again",
+      "imageUrl": "https://images.unsplash.com/photo-1543265832-56c79a5caf97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2FyJTIwcm9hZHxlbnwwfHx8fDE3NjEyMzY3Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "car road"
+    }
+  ]
 }
